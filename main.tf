@@ -11,8 +11,8 @@ terraform {
 
 
 provider "aws" {
-  shared_config_files      = ["/Users/markellaskempri/.aws/config"]
-  shared_credentials_files = ["/Users/markellaskempri/.aws/credentials"]
+  shared_config_files      = ["~/.aws/config"]
+  shared_credentials_files = ["~/.aws/credentials"]
   profile                  = "hackathon"
   region = "eu-west-1"
 }
